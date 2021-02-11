@@ -69,7 +69,7 @@ const AddLogModal = () => {
           </div>
         </div>
       </div>
-      <div class="modal-footer">
+      <div className="modal-footer">
         <a
           href="#!"
           onClick={onSubmit}
