@@ -1,0 +1,36 @@
+import { GET_LOGS, SET_LOADING, LOGS_ERROR } from "./types";
+
+// export default getLogs = () => {
+//   return async (dispatch) => {
+//     setLoading();
+//     const res = await fetch("/logs");
+//     const data = res.json();
+//     dispatch({
+//       type: GET_LOGS,
+//       payload: data,
+//     });
+//   };
+// };
+
+export default getLogs = () => async (dispatch) => {
+  try {
+    setLoading();
+    const res = await fetch("/logs");
+    const data = res.json();
+    dispatch({
+      type: GET_LOGS,
+      payload: data,
+    });
+  } catch (err) {
+    dispatch({
+      type: LOGS_ERROR,
+      payload: err.response.data,
+    });
+  }
+};
+
+export default setLoading = () => {
+  return {
+    type: SET_LOADING,
+  };
+};
