@@ -1,32 +1,18 @@
 {
   "logs": [
     {
-      "message": "Changed network card in server 007",
-      "attention": false,
-      "tech": "sanjay rd",
-      "date": "2021-02-11T10:54:33.688Z",
-      "id": 1
-    },
-    {
-      "message": "Fixed hard drive on workstation 002",
-      "attention": false,
-      "tech": "sujit hona",
-      "date": "2021-02-11T10:54:53.514Z",
-      "id": 2
-    },
-    {
-      "message": "1122 wireless down",
+      "message": "blue screen error on 404",
       "attention": true,
       "tech": "sanjay rd",
-      "date": "2021-02-11T10:55:18.070Z",
-      "id": 3
+      "date": "2021-02-11T13:49:44.231Z",
+      "id": 5
     },
     {
-      "message": "Workstation 026 is up and running",
-      "attention": true,
+      "message": "hard drive error 606",
+      "attention": false,
       "tech": "sujit hona",
-      "date": "2021-02-11T10:55:34.913Z",
-      "id": 4
+      "date": "2021-02-11T13:50:06.604Z",
+      "id": 6
     }
   ],
   "techs": [
