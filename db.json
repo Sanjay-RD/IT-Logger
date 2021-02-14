@@ -32,6 +32,11 @@
       "id": 2,
       "firstName": "sujit",
       "lastName": "hone"
+    },
+    {
+      "id": 3,
+      "firstName": "Ashok",
+      "lastName": "Thapa"
     }
   ]
 }
