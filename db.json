@@ -37,6 +37,16 @@
       "id": 3,
       "firstName": "Ashok",
       "lastName": "Thapa"
+    },
+    {
+      "firstName": "ram",
+      "lastName": "krishna",
+      "id": 4
+    },
+    {
+      "firstName": "sujit",
+      "lastName": "ghimire",
+      "id": 5
     }
   ]
 }
